@@ -6,7 +6,7 @@ import cv2  # Import OpenCV library
 cap = cv2.VideoCapture(0)
 
 # Create an instance of the HandDetector class with specified detection confidence and maximum hands to detect
-detector = HandDetector(detectionCon=0.8, maxHands=2)
+detector = HandDetector(detectionCon=0.8, maxHands=10)
 
 # Infinite loop to continuously process frames from the camera
 while True:
